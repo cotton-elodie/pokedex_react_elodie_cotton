@@ -1,0 +1,18 @@
+@use 'src/style/vars';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: vars.$colorFontHeader;
+  background-color: vars.$colorBdHeader;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+
+  &-title{
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+}
+
+

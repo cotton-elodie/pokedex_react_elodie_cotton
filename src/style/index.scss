@@ -1,0 +1,11 @@
+@use 'reset';
+@use 'vars';
+
+body {
+  background-color: #c04140;
+  margin: 2rem;
+  font-size: 20px;
+  font-family: "Bree Serif", serif;
+  color: vars.$colorFont;
+  
+}
